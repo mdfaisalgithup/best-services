@@ -24,7 +24,7 @@ export default function Contact() {
               type="text"
               id="name"
               placeholder="Your Name"
-              className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="w-full px-4 py-3 border-1 rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
             />
           </div>
 
@@ -36,7 +36,7 @@ export default function Contact() {
               type="email"
               id="email"
               placeholder="your@email.com"
-              className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="w-full px-4 py-3 border-1  rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
             />
           </div>
 
@@ -44,11 +44,11 @@ export default function Contact() {
             <label htmlFor="message" className="block text-gray-700 font-medium mb-2">
               Message
             </label>
-            <textarea
+            <textarea 
               id="message"
               placeholder="Your Message"
               rows="5"
-              className="w-full px-4 py-3  rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="w-full px-4 py-3 border-1  rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
             ></textarea>
           </div>
 
@@ -60,7 +60,7 @@ export default function Contact() {
           </button>
         </form>
 
-        <div className="mt-10 text-center text-gray-500 text-sm">
+        <div className="mt-10 text-center border-1 text-gray-500 text-sm">
           Or reach us at <span className="font-medium">contact@yourdomain.comdfd</span>
         </div>
       </div>
