@@ -73,7 +73,7 @@ export default function Home() {
     <div className="relative h-[500px] w-full">
 
 
-    <Image className="w-full h-[500px]" width={200} height={400} src="https://i.ibb.co.com/j9GtCxRx/premium-photo-1682361002170-082dc66c1a50.jpg" />
+    <Image className="w-full h-[500px] object-cover" width={200} height={400} src="https://i.ibb.co.com/j9GtCxRx/premium-photo-1682361002170-082dc66c1a50.jpg" />
       
       
       <div className="bg-[#272727b0]  p-6  absolute top-0 flex justify-center items-center z-50 w-full h-full">
@@ -82,7 +82,7 @@ export default function Home() {
    <h1 className="text-[#FF6D1F]">           
 <Typewriter
   options={{
-    strings: ['Hello', 'Paintings'],
+    strings: ['Best Paintings', 'Paintings'],
     autoStart: true,
     loop: true,
   }}
