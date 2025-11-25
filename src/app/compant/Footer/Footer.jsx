@@ -15,14 +15,14 @@ export default function Footer() {
      <div className="flex   justify-center items-center text-center w-full">
    <aside>
 <div>
-<Image className="w-[90px] h-[90px] mx-auto" src="https://i.ibb.co.com/7tcrGrhw/360-F-546308831-wv-I3-K9zg0-Lx-FRUx-Sol-Sh-Er-Ehx-Cs3-Gsq3-removebg-preview.png" alt="logo" width={100} height={100}/>
+<Image className="w-[90px] h-[90px] rounded-full mx-auto my-2" src="https://i.ibb.co.com/8gbbcBb8/logo.pnghttps://i.ibb.co.com/7tcrGrhw/360-F-546308831-wv-I3-K9zg0-Lx-FRUx-Sol-Sh-Er-Ehx-Cs3-Gsq3-removebg-preview.png" alt="logo" width={100} height={100}/>
 </div> 
   <div className="xl:text-[16px] lg:text-[16px] md:text-[16px] text-[12px]">
       <p className="font-bold">
-      House Painting
-      <br />
-      Providing reliable tech since 2025
+      Ma Construction Maintenance
+
     </p>
+    <p className="text-[14px]">      Providing reliable tech since 2025</p>
   </div>
   </aside>
  </div>
