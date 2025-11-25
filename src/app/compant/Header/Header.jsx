@@ -24,7 +24,7 @@ export default function Header() {
 
 
 <div className="flex    justify-center items-center my-2">
-  <input className="bg-[#fab702] hover:text-amber-50 mask-radial-to-fuchsia-950 text-black hover:cursor-pointer hover:bg-amber-700 px-4 py-2" type="button" value="Request A Quote" />
+  <input className="bg-[#fab702] hover:text-amber-50 mask-radial-to-fuchsia-950 text-black hover:cursor-pointer hover:bg-amber-700 px-3 py-2" type="button" value="Request A Quote" />
 </div>
 </div>
 
