@@ -10,7 +10,7 @@ export default function Contact() {
 
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
       <div className="bg-white shadow-lg rounded-lg max-w-3xl w-full p-8">
-        <h1 className="text-3xl font-bold text-center mb-6">Contact Us</h1>
+        <h1 className="text-3xl text-black font-bold text-center mb-6">Contact Us</h1>
         <p className="text-center text-gray-600 mb-8">
           We'd love to hear from you! Fill out the form below.
         </p>
