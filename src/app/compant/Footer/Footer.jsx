@@ -8,7 +8,7 @@ export default function Footer() {
 <div className="bg-[#191E24] h-auto pt-4 w-full">
 
 
-<div className="xl:mx-[240px] lg:mx-[150px] md:mx-[100px] sm:mx-[10px] h-full flex items-center justify-center">
+<div className="xl:mx-[240px] lg:mx-[150px] md:mx-[100px] sm:mx-[10px] h-full flex items-center justify-center py-4">
 
   
 <div className="w-full ">
@@ -61,7 +61,7 @@ export default function Footer() {
 <div className="flex items-center justify-center gap-x-4 bg-[#1a2127] ">
 
   <div>
-    <h2 className="font-bold text-[16px] py-2">Copyright 2025</h2>
+    <h2 className="font-bold text-[15px] py-2">Copyright 2025</h2>
   </div>
 </div>
 
