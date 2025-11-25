@@ -118,7 +118,7 @@ export default function Home() {
   <h2 className="font-bold text-[20px] text-center text-black">Our Services</h2>
 
 <div>
-  <h2>
+  <h2 className="text-black text-center">
 Building and Construction </h2>
 <p></p>
 </div>
