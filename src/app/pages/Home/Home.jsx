@@ -5,9 +5,11 @@ import ProjectSlideshow from "@/app/compant/ProjectSlideshow";
 import Sliders from "@/app/compant/Slider/Slider";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import Typewriter from 'typewriter-effect';
 
 
 export default function Home() {
+
 
   const dataJson = [
     {
@@ -48,6 +50,9 @@ export default function Home() {
     }
   ];
 
+
+ 
+
   const [slides, setSlides] = useState([]);
 
   useEffect(() => {
@@ -62,20 +67,42 @@ export default function Home() {
 
 <div>
 
-    <section
-      className="h-[70vh] bg-cover bg-center flex items-center justify-center text-white text-center"
-      style={{
-        backgroundImage: "url('https://i.ibb.co.com/bMWfpJ5n/Whats-App-Image-2025-11-23-at-8-46-46-AM.jpg')",
-      }}
-    >
-      <div className="bg-black/40 backdrop-blur-sm p-6 rounded-lg">
-        <h1 className="text-4xl md:text-6xl font-bold">Beautiful Paintings</h1>
+    <div
+     className=" bg-cover bg-center flex items-center justify-center text-white text-center"
+    > 
+    <div className="relative h-[500px] w-full">
+
+
+    <Image className="w-full h-[500px]" width={200} height={400} src="https://i.ibb.co.com/j9GtCxRx/premium-photo-1682361002170-082dc66c1a50.jpg" />
+      
+      
+      <div className="bg-[#272727b0]  p-6  absolute top-0 flex justify-center items-center z-50 w-full h-full">
+        <div>
+          <h1 className="text-4xl md:text-6xl font-bold flex gap-x-1.5">Beautiful 
+   <h1 className="text-[#FF6D1F]">           
+<Typewriter
+  options={{
+    strings: ['Hello', 'Paintings'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+          </h1>
+          
+           </h1>
+
+
+
+
         <p className="mt-3 text-lg max-w-xl">
           Explore stunning artworks created with passion, colors, and imagination.
         </p>
+        </div>
       </div>
-    </section>
+    </div>
 
+
+    </div>
 </div>
 
 {/* section */}
@@ -93,8 +120,8 @@ export default function Home() {
 </div>
 
 
-<div className="relative w-full h-48 bg-fixed bg-center bg-cover" 
-     style={{ backgroundImage: "url('https://i.ibb.co.com/gZkwxZH4/savannah-du-toit-h3-FRYkgq-JSg-unsplash.jpg')" }}>
+<div className="relative w-full h-[300px] bg-fixed bg-center bg-cover" 
+     style={{ backgroundImage: "url('https://i.ibb.co.com/j9GtCxRx/premium-photo-1682361002170-082dc66c1a50.jpg')" }}>
   
   {/* Dark overlay */}
   <div className="absolute inset-0 bg-[#02020275] bg-opacity-60"></div>
