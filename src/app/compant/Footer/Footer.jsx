@@ -32,9 +32,12 @@ export default function Footer() {
 <div className="flex mt-6  justify-between xl:text-[16px] lg:text-[16px] md:text-[16px] text-[12px] mx-2">
     <nav>
     <h6 className="footer-title">Services</h6>
-    <div className="link link-hover">Branding</div>
-    <div className="link link-hover">Design</div>
-    <div className="link link-hover">Advertisement</div>
+    <div className="link link-hover">Plaster & Painting</div>
+    <div className="link link-hover"> GIB / Plasterboard Services</div>
+    <div className="link link-hover">General Building & Maintenance</div>
+        <div className="link link-hover">Exterior Maintenance</div>
+            <div className="link link-hover">Renovation Support</div>
+
   </nav>
   <nav>
     <h6 className="footer-title">Company</h6>

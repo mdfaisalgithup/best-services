@@ -196,7 +196,7 @@ Building and Construction </h2>
 </div>
 
 
-<div className="xl:flex lg:flex md:flex items-center flex-wrap my-2 justify-center gap-x-4 bg-[#027c02]">
+<div className="xl:flex lg:flex md:flex items-center flex-wrap my-2 justify-center gap-x-4 bg-[#843232]">
 <div className="py-2">
     <Image className="w-[90px] bg-white  h-[90px] rounded-full mx-auto my-2" src="https://i.ibb.co.com/0jLgLv1G/Chat-GPT-Image-Nov-25-2025-05-57-46-PM-removebg-preview.png" alt="logo" width={100} height={100}/>
 </div>

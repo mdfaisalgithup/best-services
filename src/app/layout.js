@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,9 +22,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+  <Link
+    rel="icon"
+    type="image/png"
+    href="https://i.ibb.co.com/8gbbcBb8/logo.png"
+  />
+</Head>
 
-        <link rel="icon" href="https://i.ibb.co.com/8gbbcBb8/logo.png" sizes="any" />
-      </Head>
       <body
         className={` bg-amber-50 ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
