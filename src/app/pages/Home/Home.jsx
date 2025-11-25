@@ -82,7 +82,7 @@ export default function Home() {
    <h1 className="text-[#FF6D1F]">           
 <Typewriter
   options={{
-    strings: ['Best Paintings', 'Paintings'],
+    strings: ['Plaster', 'Paintings'],
     autoStart: true,
     loop: true,
   }}
