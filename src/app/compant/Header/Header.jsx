@@ -6,12 +6,12 @@ export default function Header() {
  <>
  
 <div className="bg-amber-50">
- <div className="mx-60 ">
+ <div className="xl:mx-[240px] lg:mx-[150px] md:mx-[100px] sm:mx-[10px]">
 
 <div className="flex items-center justify-between">
 
 <div>
-<Image className="w-[70px] h-[70px]" src="https://i.ibb.co.com/7tcrGrhw/360-F-546308831-wv-I3-K9zg0-Lx-FRUx-Sol-Sh-Er-Ehx-Cs3-Gsq3-removebg-preview.png" alt="logo" width={100} height={100}/>
+<Image className="w-[70px] h-[70px]" src="https://i.ibb.co.com/8gbbcBb8/logo.png" alt="logo" width={100} height={100}/>
 </div> 
 
 <div className="flex gap-4 text-black">
