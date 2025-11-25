@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Our Best Services",
-  description: "Ma Construction Maintenance - Top Services in World",
+  title: "Ma Construction Maintenance Ltd",
+  description: "Your Trusted Building & Property Maintenance Partner in New Zealand",
 };
 
 export default function RootLayout({ children }) {

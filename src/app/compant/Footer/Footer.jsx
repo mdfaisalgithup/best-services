@@ -22,7 +22,7 @@ export default function Footer() {
       Ma Construction Maintenance
 
     </p>
-    <p className="text-[14px]">      Providing reliable tech since 2025</p>
+    <p className="text-[14px]">      Your Trusted Building & Property Maintenance Partner in New Zealand</p>
   </div>
   </aside>
  </div>
