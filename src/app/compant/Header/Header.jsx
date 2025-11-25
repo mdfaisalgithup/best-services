@@ -10,11 +10,11 @@ export default function Header() {
 
 <div className=" xl:flex lg:flex-nowrap flex-wrap items-center lg:justify-between  xl:justify-between md:justify-between ">
 
-<div>
+<div className="flex    justify-center items-center">
 <Image className="w-[70px] h-[70px]" src="https://i.ibb.co.com/8gbbcBb8/logo.png" alt="logo" width={100} height={100}/>
 </div> 
 
-<div className="flex xl:justify-start  lg:justify-start md:justify-start justify-center gap-4 text-black">
+<div className="flex    justify-center xl:gap-4 lg:gap-4 md:gap-4 gap-2 text-black xl:text-[16px] lg:text-[15px] md:text-[15px] text-[14px]">
 <Link className="hover:text-amber-700" href="/">Home</Link>
 <Link className="hover:text-amber-700" href="/pages/services">Services</Link>
 <Link className="hover:text-amber-700" href="/pages/our-project">Our Project</Link>
@@ -23,7 +23,7 @@ export default function Header() {
 </div>
 
 
-<div>
+<div className="flex    justify-center items-center my-2">
   <input className="bg-[#fab702] hover:text-amber-50 mask-radial-to-fuchsia-950 text-black hover:cursor-pointer hover:bg-amber-700 px-4 py-2" type="button" value="Request A Quote" />
 </div>
 </div>
