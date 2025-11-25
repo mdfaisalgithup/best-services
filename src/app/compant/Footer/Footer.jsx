@@ -58,7 +58,12 @@ export default function Footer() {
 
 
 
+<div className="flex items-center justify-center gap-x-4 bg-[#1a2127] ">
 
+  <div>
+    <h2 className="font-bold text-[16px] py-2">Copyright 2025</h2>
+  </div>
+</div>
 
 </div>
 
