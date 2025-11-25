@@ -11,27 +11,18 @@ export default function About() {
 
 
 
-<ol className="mt-10 space-y-10 border-l border-slate-300 pl-6">
+<div className="flex justify-center p-4">
+  <ol className="mt-10 space-y-10 border-l border-slate-300 pl-6">
 <li>
-<p className="text-sm text-slate-500">Jan 2018</p>
+<p className="text-sm text-slate-500">2025</p>
 <h3 className="font-semibold">Company founded</h3>
 <p className="mt-1 text-slate-600 text-sm">
 Two founders and a tiny office.
 </p>
 </li>
-<li>
-<p className="text-sm text-slate-500">Jun 2019</p>
-<h3 className="font-semibold">First Product Launch</h3>
-<p className="mt-1 text-slate-600 text-sm">
-Launched MVP and gained early adopters.
-</p>
-</li>
-<li>
-<p className="text-sm text-slate-500">Mar 2021</p>
-<h3 className="font-semibold">Series A</h3>
-<p className="mt-1 text-slate-600 text-sm">Scaled the team.</p>
-</li>
+
 </ol>
+</div>
 
 
 

@@ -8,8 +8,9 @@ export default function Contact() {
 <Header></Header>
 
 
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
-      <div className="bg-white shadow-lg rounded-lg max-w-3xl w-full p-8">
+    <div className="min-h-screen  flex items-center justify-center p-6">
+      
+      <div className="bg-[#f2f2f2] border-[1px] border-[#8a8a8a7c] shadow-lg rounded-lg max-w-3xl w-full p-8">
         <h1 className="text-3xl text-black font-bold text-center mb-6 xl:text-[16px] lg:text-[16px] md:text-[16px] text-[12px]">Contact Us</h1>
         <p className="text-center text-gray-600 mb-8 xl:text-[16px] lg:text-[16px] md:text-[16px] text-[12px]">
           We'd love to hear from you! Fill out the form below.
@@ -24,7 +25,7 @@ export default function Contact() {
               type="text"
               id="name"
               placeholder="Your Name"
-              className="w-full px-4 py-3 border-2 border-[#b7c3e4b9] rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="w-full px-4 py-3 border-[1px] border-[#b7c3e4b9] rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
             />
           </div>
 
@@ -36,7 +37,7 @@ export default function Contact() {
               type="email"
               id="email"
               placeholder="your@email.com"
-              className="w-full px-4 py-3 border-2 border-[#b7c3e4b9]  rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="w-full px-4 py-3 border-[1px] border-[#b7c3e4b9]  rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
             />
           </div>
 
@@ -48,7 +49,7 @@ export default function Contact() {
               id="message"
               placeholder="Your Message"
               rows="5"
-              className="w-full px-4 py-3 border-2 border-[#b7c3e4b9]  rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="w-full px-4 py-3 border-[1px] border-[#b7c3e4b9]  rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
             ></textarea>
           </div>
 
@@ -64,6 +65,7 @@ export default function Contact() {
           Or reach us at <span className="font-medium">contact@yourdomain.comdfd</span>
         </div>
       </div>
+
     </div>
 
 <Footer></Footer>

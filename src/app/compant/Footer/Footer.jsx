@@ -5,7 +5,7 @@ export default function Footer() {
  <>
  {/* #191E24 */}
 
-<div className="bg-[#191E24] h-[400px] w-full">
+<div className="bg-[#191E24] h-auto pt-4 w-full">
 
 
 <div className="xl:mx-[240px] lg:mx-[150px] md:mx-[100px] sm:mx-[10px] h-full flex items-center justify-center">
@@ -55,6 +55,11 @@ export default function Footer() {
 
 
 </div>
+
+
+
+
+
 </div>
 
  </>
