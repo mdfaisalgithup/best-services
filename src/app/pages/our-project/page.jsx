@@ -61,7 +61,6 @@ export default function OurProject() {
 
 
 <div className="xl:mx-[240px] lg:mx-[150px] md:mx-[100px] sm:mx-[10px] ">
-  <h2 className="font-semibold mt-6 text-center text-black">Our Projects</h2>
 <h2 className="font-semibold mt-6 text-center text-black text-2xl">
   Our Project
 </h2>
