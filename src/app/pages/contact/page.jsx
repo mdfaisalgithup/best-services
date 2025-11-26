@@ -72,18 +72,18 @@ export default function Contact() {
     </div>
 
 
-    <div className="min-h-screen bg-gray-100 py-12 px-6 lg:px-32 shadow-lg ">
+    <div className=" bg-gray-100 py-12 px-6 lg:px-32 shadow-lg ">
 <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-10">
 <h1 className="text-3xl text-bl font-bold text-center mb-8 text-black">Company Information</h1>
 
 
 
 {/* Company Info */}
-<div className="grid grid-cols-3 md:grid-cols-3 gap-8 items-center justify-center">
+<div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center">
 
 
 <div className="p-6 bg-gray-50 rounded-xl shadow-sm">
-<h2 className="text-xl font-semibold mb-4">Company Information</h2>
+
 <p className="text-gray-700 mb-2"><span className="font-semibold">Company: </span>Ma Construction Maintenance LTD</p>
 <p className="text-gray-700 mb-2"> Govt Licenced Approved</p>
 </div>
