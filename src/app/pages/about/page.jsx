@@ -27,7 +27,7 @@ Two founders and a tiny office.
 
 
 {/* CONTACT */}
-<section id="contact" className="bg-indigo-700 text-white">
+<section id="contact" className="bg-[#1B3C53] text-white">
 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
 <h2 className="text-2xl font-bold">Let's talk</h2>
 <p className="mt-2 text-indigo-200">
