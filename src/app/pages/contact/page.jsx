@@ -96,8 +96,8 @@ export default function Contact() {
 </div>
 
 
-<div className="p-6 bg-gray-50 rounded-xl shadow-sm">
-<h2 className="text-xl font-semibold mb-4">Contact Details</h2>
+<div className="p-6 bg-gray-50 rounded-xl shadow-sm ">
+<h2 className="text-xl font-semibold mb-4 text-black">Contact Details</h2>
 <p className="text-gray-700 mb-2">+64 20 4095 2590</p>
 <a href="mailto:mahabubsadi1994@gmail.com" className="text-blue-600 font-semibold underline">
 mahabubsadi1994@gmail.com
