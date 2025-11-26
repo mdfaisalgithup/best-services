@@ -21,19 +21,19 @@ const dataJson = [
   {
     id: 2,
     title: "Exterior Plastering",
-    thumbnail: "https://i.ibb.co.com/vb3Pb66/1-premium-photo-1681589433879-c823909b13be.jpg",
+    thumbnail: "https://i.ibb.co.com/3yvxYhGP/savannah-du-toit-h3-FRYkgq-JSg-unsplash.jpg",
     description: "Durable exterior plastering that protects your home from weather and damage."
   },
   {
     id: 3,
     title: "Skim Coating",
-    thumbnail: "https://i.ibb.co.com/vb3Pb66/1-premium-photo-1681589433879-c823909b13be.jpg",
+    thumbnail: "https://i.ibb.co.com/67rVYwTp/close-up-shot-hand-trowel.jpg",
     description: "A thin finishing layer to make walls and ceilings smooth and flawless."
   },
   {
     id: 4,
     title: "Gib Stopping",
-    thumbnail: "https://i.ibb.co.com/vb3Pb66/1-premium-photo-1681589433879-c823909b13be.jpg",
+    thumbnail: "https://i.ibb.co.com/Z6FP3JKK/stop-sign-744192-1280.jpg",
     description: "Professional Gib stopping for seamless joints and perfectly even surfaces."
   },
   {
@@ -45,9 +45,30 @@ const dataJson = [
   {
     id: 6,
     title: "Interior & Exterior Painting",
-    thumbnail: "https://i.ibb.co.com/vb3Pb66/1-premium-photo-1681589433879-c823909b13be.jpg",
+    thumbnail: "https://i.ibb.co.com/XZ4RhJ47/masaking-blue-paint-with-roller-brush-dipped-white-paint-handyman-renovating-apartment-redecoration.jpg",
     description: "High-quality painting services that enhance and protect your home."
   }
+];
+const dataJsonTwo = [
+  {
+    id: 1,
+    title: "Shower Installation",
+    thumbnail: "https://i.ibb.co.com/vb3Pb66/1-premium-photo-1681589433879-c823909b13be.jpg",
+    description: "Professional shower installation for a clean, functional, and modern bathroom setup."
+  },
+  {
+    id: 2,
+    title: "Vanity Installation",
+    thumbnail: "https://i.ibb.co.com/vb3Pb66/1-premium-photo-1681589433879-c823909b13be.jpg",
+    description: "Installing stylish and durable vanities to upgrade the look and functionality of your bathroom."
+  },
+  {
+    id: 3,
+    title: "Toilet & Tapware Installation",
+    thumbnail: "https://i.ibb.co.com/vb3Pb66/1-premium-photo-1681589433879-c823909b13be.jpg",
+    description: "Reliable installation of toilets, taps, mixers, and bathroom fittings for smooth daily use."
+  },
+  
 ];
 
 
@@ -235,7 +256,7 @@ Building and Construction </h2>
 
 
 <div>
-  <ProjectSlideshow slides={dataJson} />;
+  <ProjectSlideshow slides={dataJsonTwo} />;
 </div>
 
 

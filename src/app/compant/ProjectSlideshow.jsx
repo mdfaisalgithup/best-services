@@ -6,9 +6,15 @@ export default function ProjectSlideshow({ slides }) {
 
   return (
     <div className="xl:mx-[240px] lg:mx-[150px] md:mx-[100px] sm:mx-[10px] ">
-      <h2 className="font-semibold mt-6 text-center text-black text-2xl">
-        Our Project
-      </h2>
+
+
+      <div>
+        <h2 className="font-semibold mt-6 text-center text-black text-2xl">
+  Our Services
+</h2>
+<p className="text-black text-center font-medium text-orange-500 font-semibold italic"> Bathroom, Kitchen & General Installations
+</p>
+      </div>
 
       <div
         className="
@@ -16,7 +22,7 @@ export default function ProjectSlideshow({ slides }) {
           grid-cols-1 
           sm:grid-cols-2 
           md:grid-cols-3 
-          lg:grid-cols-4 
+          lg:grid-cols-3
           gap-6 
           p-5
         "
@@ -40,7 +46,7 @@ export default function ProjectSlideshow({ slides }) {
             />
 
             <div className="p-4">
-              <h3 className="font-semibold text-lg">{item.title}</h3>
+              <h3 className="font-semibold text-lg text-black">{item.title}</h3>
               <p className="text-gray-600 text-sm">{item.description}</p>
             </div>
           </div>
