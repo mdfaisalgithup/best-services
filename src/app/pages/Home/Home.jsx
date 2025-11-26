@@ -53,19 +53,19 @@ const dataJsonTwo = [
   {
     id: 1,
     title: "Shower Installation",
-    thumbnail: "https://i.ibb.co.com/vb3Pb66/1-premium-photo-1681589433879-c823909b13be.jpg",
+    thumbnail: "https://i.ibb.co.com/w8rYhMN/Untitled.jpg",
     description: "Professional shower installation for a clean, functional, and modern bathroom setup."
   },
   {
     id: 2,
     title: "Vanity Installation",
-    thumbnail: "https://i.ibb.co.com/vb3Pb66/1-premium-photo-1681589433879-c823909b13be.jpg",
+    thumbnail: "https://i.ibb.co.com/vb3Pb66/1-premium-photo-1681589433879-c823909b13be.jpghttps://i.ibb.co.com/VpkmfdZB/images.jpg",
     description: "Installing stylish and durable vanities to upgrade the look and functionality of your bathroom."
   },
   {
     id: 3,
     title: "Toilet & Tapware Installation",
-    thumbnail: "https://i.ibb.co.com/vb3Pb66/1-premium-photo-1681589433879-c823909b13be.jpg",
+    thumbnail: "https://i.ibb.co.com/1GQVqMDr/2222.jpg",
     description: "Reliable installation of toilets, taps, mixers, and bathroom fittings for smooth daily use."
   },
   
