@@ -43,7 +43,7 @@ className="px-3 py-2 border rounded-md"
 />
 <input
 type="email"
-placeholder="you@company.com"
+placeholder="Email"
 className="px-3 py-2 border rounded-md"
 />
 <textarea

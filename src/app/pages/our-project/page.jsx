@@ -19,30 +19,7 @@ export default function OurProject() {
       thumbnail: "https://i.ibb.co.com/bMWfpJ5n/Whats-App-Image-2025-11-23-at-8-46-46-AM.jpg",
       description: "A sweet and joyful smiling moment."
     },
-    {
-      id: 3,
-      title: "Nature Walk",
-      thumbnail: "https://i.ibb.co.com/bMWfpJ5n/Whats-App-Image-2025-11-23-at-8-46-46-AM.jpg",
-      description: "Walking through nature with peace."
-    },
-    {
-      id: 4,
-      title: "Special Morning Moment",
-      thumbnail: "https://i.ibb.co.com/bMWfpJ5n/Whats-App-Image-2025-11-23-at-8-46-46-AM.jpg",
-      description: "Captured during a beautiful morning."
-    },
-    {
-      id: 5,
-      title: "Perfect Smile",
-      thumbnail: "https://i.ibb.co.com/bMWfpJ5n/Whats-App-Image-2025-11-23-at-8-46-46-AM.jpg",
-      description: "A sweet and joyful smiling moment."
-    },
-    {
-      id: 6,
-      title: "Nature Walk",
-      thumbnail: "https://i.ibb.co.com/bMWfpJ5n/Whats-App-Image-2025-11-23-at-8-46-46-AM.jpg",
-      description: "Walking through nature with peace."
-    }
+    
   ];
 
   const [slides, setSlides] = useState([]);
@@ -71,7 +48,7 @@ export default function OurProject() {
     grid-cols-1 
     sm:grid-cols-2 
     md:grid-cols-3 
-    lg:grid-cols-4 
+    lg:grid-cols-3
     gap-6 
     p-5
   "
