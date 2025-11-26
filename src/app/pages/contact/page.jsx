@@ -8,9 +8,9 @@ export default function Contact() {
 <Header></Header>
 
 
-    <div className="min-h-screen  flex items-center justify-center p-6">
+    <div className=" flex items-center justify-center p-6">
       
-      <div className="bg-[#1B3C53] border-[1px] border-[#8a8a8a7c] shadow-lg rounded-lg max-w-3xl w-full p-8">
+      <div className="bg-[#1B3C53] border-[1px] border-[#8a8a8a7c] shadow-md rounded-lg w-full p-8">
         <h1 className="text-3xl text-black font-bold text-center mb-6 xl:text-[16px] lg:text-[16px] md:text-[16px] text-white  text-[12px]">Contact Us</h1>
         <p className="text-center text-white  mb-8 xl:text-[16px] lg:text-[16px] md:text-[16px] text-[12px]">
           We'd love to hear from you! Fill out the form below.
@@ -66,7 +66,52 @@ export default function Contact() {
         </div>
       </div>
 
+
+
+
     </div>
+
+
+    <div className="min-h-screen bg-gray-100 py-12 px-6 lg:px-32 shadow-lg ">
+<div className="max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-10">
+<h1 className="text-3xl text-bl font-bold text-center mb-8 text-black">Company Information</h1>
+
+
+
+{/* Company Info */}
+<div className="grid grid-cols-3 md:grid-cols-3 gap-8 items-center justify-center">
+
+
+<div className="p-6 bg-gray-50 rounded-xl shadow-sm">
+<h2 className="text-xl font-semibold mb-4">Company Information</h2>
+<p className="text-gray-700 mb-2"><span className="font-semibold">Company: </span>Ma Construction Maintenance LTD</p>
+<p className="text-gray-700 mb-2"> Govt Licenced Approved</p>
+</div>
+
+<div>
+  <p className="text-gray-700 mb-2"><span className="font-semibold">Address:</span></p>
+<p className="text-gray-700 ml-4">City</p>
+<p className="text-gray-700 ml-4">Auckland</p>
+<p className="text-gray-700 ml-4">New Zealand</p>
+</div>
+
+
+<div className="p-6 bg-gray-50 rounded-xl shadow-sm">
+<h2 className="text-xl font-semibold mb-4">Contact Details</h2>
+<p className="text-gray-700 mb-2">+64 20 4095 2590</p>
+<a href="mailto:mahabubsadi1994@gmail.com" className="text-blue-600 font-semibold underline">
+mahabubsadi1994@gmail.com
+</a>
+</div>
+
+
+</div>
+
+
+{/* Contact Form */}
+
+</div>
+</div>
 
 <Footer></Footer>
 
